@@ -12,7 +12,18 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'gradient': 'gradient 8s linear infinite',
+      },
+      keyframes: {
+        'gradient': {
+          to: { 'background-position': '200% center' },
+        }
+      }  
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require("tailwindcss-motion")],
+  daisyui: {
+    themes: ["cupcake", "dark", "night", "black"],
+  },
 } satisfies Config;
