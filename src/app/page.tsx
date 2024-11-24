@@ -72,8 +72,6 @@ export default function Home() {
           transition-all duration-700 ease-out hover:-translate-y-2
           motion-safe:animate-fade-up"
               href="https://backgone.danyraihan.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <div className="p-8 h-full flex flex-col">
                 <h3 className="text-2xl font-bold text-orange-100 group-hover:scale-105 transition-transform duration-500">
@@ -98,8 +96,6 @@ export default function Home() {
           transition-all duration-700 ease-out hover:-translate-y-2
           motion-safe:animate-fade-up motion-safe:animate-delay-100"
               href="https://insightubc.danyraihan.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <div className="p-8 h-full flex flex-col">
                 <h3 className="text-2xl font-bold text-sky-100 group-hover:scale-105 transition-transform duration-500">
