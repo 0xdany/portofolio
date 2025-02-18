@@ -65,6 +65,32 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 px-4">
+          <a
+              className="group relative overflow-hidden rounded-3xl backdrop-blur-lg 
+          bg-gradient-to-br from-blue-500/20 to-rose-500/20 
+          shadow-lg hover:shadow-2xl hover:shadow-orange-500/30 
+          transition-all duration-700 ease-out hover:-translate-y-2
+          motion-safe:animate-fade-up"
+              href="https://www.syllabase.app/"
+            >
+              <div className="p-8 h-full flex flex-col">
+                <h3 className="text-2xl font-bold text-blue-100 group-hover:scale-105 transition-transform duration-500">
+                  Syllabase{" "}
+                  <span className="block mt-1 text-sm font-light text-blue-200/70">
+                    SaaS
+                  </span>
+                </h3>
+                <p className="mt-4 text-blue-100/80 group-hover:text-blue-100 transition-colors duration-500">
+                  Your missing brain cells.
+                </p>
+                <div className="mt-auto pt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <span className="text-blue-200">Explore →</span>
+                </div>
+              </div>
+            </a>
+
+            
+
             <a
               className="group relative overflow-hidden rounded-3xl backdrop-blur-lg 
           bg-gradient-to-br from-orange-500/20 to-rose-500/20 
